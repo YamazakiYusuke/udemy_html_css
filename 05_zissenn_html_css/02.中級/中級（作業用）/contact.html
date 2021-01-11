@@ -19,8 +19,8 @@
             
             <nav>
                 <ul>
-                    <li><a href="#">ホーム</a></li>
-                    <li><a href="#">メニュー一覧</a></li>
+                    <li><a href="index.html">ホーム</a></li>
+                    <li><a href="menu.html">メニュー一覧</a></li>
                     <li><a href="#">ご予約</a></li>
                 </ul>
             </nav>
@@ -44,16 +44,58 @@
         <div id="left" class="box-shadow">
             <h3>ご予約お問い合わせフォーム</h3>
             <p id="contact_text">
-              下記お問い合わせフォームよりご希望の日時、ご予約内容をお知らせください。<br>
-              お問い合わせの場合は、【お客様ご要望欄】に記入して送信してください。
+                下記お問い合わせフォームよりご希望の日時、ご予約内容をお知らせください。<br>
+                お問い合わせの場合は、【お客様ご要望欄】に記入して送信してください。
             </p>
+            <form>
+                <table>
+                    <tr>
+                        <td class="form_title"><label for="form_name">お名前</label></td>
+                        <td class="form_contents">
+                            <input id="form_name" type="text" name="">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="form_title"><label for="form_tel">お電話</label></td>
+                        <td class="form_contents">
+                            <input id="form_tel" type="text" name="">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="form_title"><label for="form_time">ご希望日時</label></td>
+                        <td class="form_contents">
+                            <input class="form_time" type="date" name="">
+                            <input class="form_time" type="time" name="">時から
+                            <input class="form_time" type="time" name="">時まで
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="form_title"><label for="form_menu">ご希望メニュー</label></td>
+                        <td class="form_contents">
+                            <input id="menu_cut" type="checkbox" value="cut"><label for="menu_cut">カット</label>
+                            <input id="menu_color" type="checkbox" value="color"><label for="menu_color">カラー</label>
+                            <input id="menu_perm" type="checkbox" value="perm"><label for="menu_perm">パーマ</label>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="form_title"><label for="form_textarea">お客様ご要望欄</label></td>
+                        <td class="form_contents">
+                            <textarea name="" id="form_textarea" cols="30" rows="10"></textarea>
+                        </td>
+                    </tr>
+                </table>
+                <p id="submit">
+                    <input type="submit" value="送信">
+                </p>
+            </form>
+            
         </div>
         <!--左ここまで-->
 
         <!--右ここから-->
         <div id="right">
             <ul>
-                <li class="box-shadow"><a id="contact" href="#">ご予約・お問い合わせ</a></li>
+                <!-- <li class="box-shadow"><a id="contact" href="#">ご予約・お問い合わせ</a></li> -->
                 <li class="box-shadow"><a id="blog" href="#">スタイリストブログ</a></li>
             </ul>
         </div>
