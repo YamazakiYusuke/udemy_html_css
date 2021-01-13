@@ -70,6 +70,40 @@ a {
     ヘッダー
 ========================================= */
 
+header {
+	width: 100%;
+	height: 36px;
+	border-top: 4px solid #e66464;
+	padding: 25px 0;
+}
+
+header h1 {
+	float: left;
+}
+
+div#header_inner {
+	width: 978px;
+	height: 36px;
+	margin: 0 auto;
+}
+
+header nav {
+	float: right;
+	margin-top: 15px;
+}
+
+header nav ul {
+	border-right: 1px solid #e8e8e8;
+}
+
+header nav ul li {
+	float: left;
+	border-left: 1px solid #e8e8e8;
+	font-size: 18px;
+	padding-left: 25px;
+	padding-right: 25px;
+}
+
 
 
 
@@ -78,19 +112,133 @@ a {
 ========================================= */
 
 
+div#mainimage {
+	width: 100%;
+	height: 392px;
+	background: url(images/mainimage.jpg) no-repeat top center;
+}
+
+div#mainimage_text {
+	width: 978px;
+	height: auto;
+	margin: 0 auto;
+	padding: 60px 0;
+}
+
+div#mainimage_text p {
+	font-size: 30px;
+	line-height: 40px;
+	font-weight: 900;
+	letter-spacing: 7px;
+	margin-bottom: 20px;
+}
+
+div#mainimage_text dl {
+	width: 373px;
+}
+
+div#mainimage_text dl dd {
+	padding: 20px 0;
+	font-size: 14px;
+	line-height: 21px;
+}
+
+
+
 
 /* ========================================
     授業内容
 ========================================= */
 
+div#introduction {
+	width: 100%;
+	height: 471px;
+	background-color: #ed7c7c;
+}
+
+div#introduction_wrapper {
+	width: 978px;
+	height: auto;
+	padding: 30px 0;
+	margin: 0 auto;
+}
+
+div#introduction_title {
+	width: 100%;
+	height: 43px;
+	margin-bottom: 30px;
+}
+
+div#introduction_title h3 {
+	color: #fff;
+	font-size: 24px;
+	font-weight: 900;
+	border-bottom:4px solid #fff ;
+	display: inline-block;
+	padding-bottom: 15px;
+	margin-right: 20px;
+}
+
+div#introduction_title span {
+	color: #fff;
+	font-size: 14px;
+}
+
+div#teacher_list {
+	width: 662px;
+	height: 252px;
+	background-color: orange;
+	float: left;
+	padding: 15px;
+}
+
+div#teacher_list h4 {
+	font-size: 18px;
+	font-weight: 900;
+	margin-bottom: 10px;
+}
+
+div#teacher_list dl dt {
+	height: 131px;
+	margin-bottom: 8px;
+}
+
+div#teacher_list dl dd.teacher_name {
+	font-size: 14px;
+	font-weight: 900;
+}
+
+div#teacher_list dl dd.teacher_comment {
+	font-size: 12px;
+	line-h
+}
+
+div#course_list {
+	width: 286px;
+	height: 338px;
+	background-color: purple;
+	float: right;
+}
 
 
 /* ========================================
     料金体制
 ========================================= */
 
+div#price {
+	width: 100%;
+	height: 100px;
+	background-color: yellow;
+}
 
 
 /* ========================================
     フッター
 ========================================= */
+
+
+footer {
+	width: 100%;
+	height: 40px;
+	background-color: black;
+}
